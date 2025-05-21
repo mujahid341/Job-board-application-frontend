@@ -1,0 +1,11 @@
+.login-container {
+  @apply max-w-md mx-auto p-6 bg-white shadow rounded mt-12;
+}
+
+.form-input {
+  @apply w-full border p-2 rounded;
+}
+
+.submit-btn {
+  @apply bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700;
+}
