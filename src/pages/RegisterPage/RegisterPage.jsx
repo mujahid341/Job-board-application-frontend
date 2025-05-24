@@ -10,8 +10,8 @@ export default function RegisterPage() {
         <input type="password" placeholder="Password" className="form-input" />
         <input type="password" placeholder="Confirm Password" className="form-input" />
         <select className="form-input">
-          <option value="jobseeker">Job Seeker</option>
-          <option value="employer">Employer</option>
+          <option>Job Seeker</option>
+          <option>Employer</option>
         </select>
         <button className="submit-btn">Create Account</button>
       </form>

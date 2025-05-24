@@ -1,9 +1,9 @@
 .register-container {
-  @apply max-w-md mx-auto p-6 bg-white shadow rounded mt-12;
+  @apply max-w-md mx-auto mt-12 bg-white p-6 shadow rounded;
 }
 
 .form-input {
-  @apply w-full border p-2 rounded;
+  @apply w-full border border-gray-300 p-2 rounded;
 }
 
 .submit-btn {
