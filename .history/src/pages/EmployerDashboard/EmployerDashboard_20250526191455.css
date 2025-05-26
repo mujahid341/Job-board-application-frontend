@@ -1,0 +1,35 @@
+.dashboard-container {
+  @apply max-w-4xl mx-auto p-8 text-center bg-gray-50 rounded-lg shadow;
+}
+
+.dashboard-title {
+  @apply text-3xl font-bold mb-2 text-gray-800;
+}
+
+.dashboard-subtitle {
+  @apply text-gray-600 mb-6;
+}
+
+.dashboard-buttons {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4;
+}
+
+.dashboard-btn {
+  @apply block px-4 py-3 rounded-lg font-semibold transition transform hover:scale-105 text-center;
+}
+
+.create-btn {
+  @apply bg-green-500 text-white hover:bg-green-600;
+}
+
+.view-btn {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.update-btn {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600;
+}
+
+.delete-btn {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}

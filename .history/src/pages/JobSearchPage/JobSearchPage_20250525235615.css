@@ -1,0 +1,15 @@
+.job-search-container {
+  @apply max-w-4xl mx-auto p-6;
+}
+.filter-bar {
+  @apply flex flex-col md:flex-row gap-4 mb-6;
+}
+.filter-input {
+  @apply w-full p-2 border rounded;
+}
+.job-list {
+  @apply grid grid-cols-1 gap-4;
+}
+.job-card {
+  @apply p-4 border rounded shadow hover:shadow-md transition;
+}

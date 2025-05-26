@@ -1,0 +1,3 @@
+.job-form { @apply space-y-4 p-4 border rounded shadow; }
+.form-input { @apply w-full p-2 border rounded; }
+.submit-btn { @apply px-4 py-2 bg-green-500 text-white rounded; }
