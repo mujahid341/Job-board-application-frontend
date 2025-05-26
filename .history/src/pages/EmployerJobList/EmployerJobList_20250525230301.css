@@ -1,0 +1,19 @@
+.job-list-container {
+  @apply max-w-3xl mx-auto mt-12 p-4;
+}
+
+.job-card {
+  @apply flex justify-between items-center border p-4 rounded shadow;
+}
+
+.button-group button {
+  @apply px-3 py-1 text-sm rounded mx-1;
+}
+
+.edit-btn {
+  @apply bg-blue-500 text-white hover:bg-blue-600;
+}
+
+.delete-btn {
+  @apply bg-red-500 text-white hover:bg-red-600;
+}

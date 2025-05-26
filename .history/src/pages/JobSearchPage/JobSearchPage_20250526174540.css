@@ -1,0 +1,66 @@
+/* Container styling */
+.job-search-page {
+  @apply max-w-5xl mx-auto p-6;
+}
+
+.header-section {
+  @apply text-center mb-8;
+}
+
+.page-title {
+  @apply text-3xl font-bold mb-2;
+}
+
+.page-subtitle {
+  @apply text-gray-600;
+}
+
+/* Search bar */
+.search-section {
+  @apply flex justify-center gap-2 mb-6;
+}
+
+.search-input {
+  @apply w-2/3 px-4 py-2 border rounded shadow focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+.search-button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 transition;
+}
+
+/* Results */
+.results-section {
+  @apply mt-4;
+}
+
+.no-results-text {
+  @apply text-center text-gray-500;
+}
+
+.job-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
+
+.job-card {
+  @apply border p-4 rounded shadow hover:shadow-lg transition bg-white;
+}
+
+.job-info {
+  @apply mb-2;
+}
+
+.job-title {
+  @apply text-lg font-semibold;
+}
+
+.job-location {
+  @apply text-sm text-gray-500;
+}
+
+.job-skills {
+  @apply text-sm text-gray-600;
+}
+
+.view-link {
+  @apply inline-block text-blue-600 hover:underline text-sm;
+}
