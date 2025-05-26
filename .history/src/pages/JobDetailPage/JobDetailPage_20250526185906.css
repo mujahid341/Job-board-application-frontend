@@ -1,0 +1,48 @@
+/* JobDetailPage.css */
+
+.job-detail-container {
+  @apply max-w-4xl mx-auto p-6 bg-white rounded-lg shadow-md;
+}
+
+.back-button {
+  @apply inline-block mb-4 text-blue-600 hover:underline text-sm;
+}
+
+.job-detail-title {
+  @apply text-3xl font-bold mb-2;
+}
+
+.job-detail-location {
+  @apply text-gray-600 mb-2 text-sm;
+}
+
+.job-detail-skills {
+  @apply mb-4;
+}
+
+.badge-skill {
+  @apply inline-block bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full mr-2 mb-1;
+}
+
+.job-detail-description {
+  @apply text-base leading-relaxed;
+}
+
+/* Optional: smooth fade-in effect */
+.job-detail-container {
+  animation: fadeIn 0.5s ease-in-out;
+}
+.skill-badge {
+  @apply inline-block bg-blue-100 text-blue-700 text-xs px-2 py-1 rounded-full mr-2 mb-1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

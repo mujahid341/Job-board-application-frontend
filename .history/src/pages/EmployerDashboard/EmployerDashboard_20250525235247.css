@@ -1,0 +1,83 @@
+.dashboard-container {
+  @apply p-6 text-center min-h-screen bg-gray-50;
+}
+
+.dashboard-title {
+  @apply text-4xl font-bold mb-4;
+}
+
+.dashboard-subtitle {
+  @apply text-gray-600 mb-8;
+}
+
+.dashboard-button-group {
+  @apply flex flex-col sm:flex-row justify-center gap-4 mb-6;
+}
+
+.dashboard-btn {
+  @apply px-6 py-3 rounded font-semibold transition;
+}
+
+.dashboard-btn-blue {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.dashboard-btn-green {
+  @apply bg-green-600 text-white hover:bg-green-700;
+}
+
+.dashboard-message {
+  @apply mt-6 text-gray-600;
+}
+
+.dashboard-error {
+  @apply mt-6 text-red-500;
+}
+
+.dashboard-job-list {
+  @apply mt-6;
+}
+
+.job-list-title {
+  @apply text-xl font-semibold mb-4;
+}
+
+.job-list {
+  @apply space-y-4;
+}
+
+.job-item {
+  @apply p-4 bg-white shadow rounded flex justify-between items-center;
+}
+
+.job-info {
+  @apply text-left;
+}
+
+.job-title {
+  @apply font-bold;
+}
+
+.job-location {
+  @apply text-sm text-gray-600;
+}
+
+.job-skills {
+  @apply text-sm;
+}
+
+.job-actions {
+  @apply flex gap-2;
+}
+
+.job-action-btn {
+  @apply px-4 py-2 rounded font-semibold transition;
+}
+
+.job-edit-btn {
+  @apply bg-yellow-500 text-black hover:bg-yellow-400;
+}
+
+.job-delete-btn {
+  @apply bg-red-600 text-white hover:bg-red-500;
+}

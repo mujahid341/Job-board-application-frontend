@@ -1,0 +1,10 @@
+.job-list-container { @apply p-4; }
+.job-list-title { @apply text-xl font-semibold mb-4; }
+.job-list { @apply space-y-4; }
+.job-card { @apply p-4 border rounded shadow; }
+.job-title { @apply text-lg font-bold; }
+.job-location { @apply text-sm text-gray-600; }
+.job-skills { @apply text-sm; }
+.button-group { @apply flex space-x-2 mt-2; }
+.edit-btn { @apply px-3 py-1 bg-blue-500 text-white rounded; }
+.delete-btn { @apply px-3 py-1 bg-red-500 text-white rounded; }
